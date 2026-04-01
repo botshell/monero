@@ -21,4 +21,15 @@ tar -xvf linux64
 cd monero-x86_64-linux-gnu-*
 
 ./monero-wallet-cli
-# Enter wallet name and password, then back up the mnemonic phrase.
+# ./monero-wallet-cli --daemon-address node.moneroworld.com:18089
+# Enter wallet file name and wallet password, then back up the mnemonic phrase.
+
+# monero-wallet-cli commands
+set_daemon node.monerodevs.org:18089 trusted
+status
+address
+balance
+exit
+
+# Check mining status
+# https://hashvault.pro/monero/dashboard
