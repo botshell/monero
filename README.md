@@ -20,10 +20,12 @@ make -j$(nproc)
 ##  3. Launch mining
 
 ```
-wallet_address=
-
+read -p "Please input your wallet address: " wallet_address
 ./xmrig -o pool.hashvault.pro:443 -u "$wallet_address" -p x --tls --cpu-max-threads-hint=80
 
+```
+
+# Create a Monero Account
 # Fetch official CLI wallet
 wget https://downloads.getmonero.org/cli/linux64
 tar -xvf linux64
