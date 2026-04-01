@@ -25,11 +25,9 @@ read -p "Please input your wallet address: " wallet_address
 
 ```
 
-# Create a Monero Account
-# Fetch official CLI wallet
-wget https://downloads.getmonero.org/cli/linux64
-tar -xvf linux64
-cd monero-x86_64-linux-gnu-*
+
+
+
 
 ./monero-wallet-cli
 # ./monero-wallet-cli --daemon-address node.moneroworld.com:18089
